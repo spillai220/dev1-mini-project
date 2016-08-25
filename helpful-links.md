@@ -12,6 +12,7 @@
 ## Fonts and Icons
  - [Google fonts](https://fonts.google.com/)
  - [Font awesome](http://fontawesome.io/)
+ - [Hipster logo generator](https://www.hipsterlogogenerator.com/)
 
 ## Responsive design awards
  - [Check it](http://www.awwwards.com/50-examples-of-responsive-web-design.html)
