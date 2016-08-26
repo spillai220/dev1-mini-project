@@ -1,0 +1,21 @@
+body {
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: "Brush Script MT Italic";
+    color: black;
+    font-size: 30px;
+}
+header img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: center;
+}
+header p {
+	text-align: center;
+}
