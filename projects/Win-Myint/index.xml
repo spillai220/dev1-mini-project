@@ -1,0 +1,59 @@
+<cv>
+  <personal-details>
+    <name>Yussuf Elarif</name>
+    <email>YussufElarif@gmail.com</email>
+    <number>07909058778</number>
+  </personal-details>
+
+  <education>
+    <academic-institution>
+      <establishment>University of Greenwich</establishment>
+      <subject>
+        <title>BSc Web Technologies</title>
+        <result>2:1</result>
+      </subject>
+      <started>18/09/2012</started>
+      <finished>21/07/2016</finished>
+    </academic-institution>
+    <academic-institution>
+      <establishment>Kingsbury High Sixth Form</establishment>
+      <courses>
+        <subject>
+          <title>IT</title>
+          <result>A*</result>
+        </subject>
+        <subject>
+          <title>Business</title>
+          <result>B</result>
+        </subject>
+        <subject>
+          <title>Film Studies</title>
+          <result>C</result>
+        </subject>
+      </courses>
+      <started>18/09/2011</started>
+      <finished>21/07/2013</finished>
+    </academic-institution>
+  <education>
+
+  <skills>
+    <programming>
+      <language>C#</language>
+      <language>Javascript</language>
+      <language>HMTL</language>
+      <language>XML</language>
+      <framework>AngularJS</framework>
+      <library>Node.JS</library>
+    </programming>
+    <softwares>
+      <application>Microsoft Office</application>
+      <application>Visual Studio</application>
+    </softwares>
+  </skills>
+
+  <hobbies>
+    <hobby>Gaming</hobby>
+    <hobby>Programming</hobby>
+    <hobby>Teaching</hobby>
+  </hobbies>
+</cv>
