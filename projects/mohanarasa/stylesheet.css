@@ -1,21 +1,12 @@
 body {
-  background: #293f50;
-  color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #94b8b8;
 }
-
+img.center {
+	display:block;
+	margin: 0 auto;
+}
 h1{
-    text-align: center;
-    font-family: "Brush Script MT Italic";
-    color: black;
-    font-size: 30px;
-}
-header img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    float: center;
-}
-header p {
-	text-align: center;
+	font-family: Georgia, time, serif;
+	font-size: 40px;
+	text-transform: uppercase;
 }
