@@ -1,12 +1,24 @@
 body {
-	background-color: #94b8b8;
+	width:960px;
+	margin:0 auto;
+	}
+	#content {
+		overflow:auto;
+		height:100%;
+	}
+#nav , #feature , #footer{
+	background-color: #efefef;
+	margin:10px;
+	padding: 10px 
 }
-img.center {
-	display:block;
-	margin: 0 auto;
+.column1, .column2, .column3{
+	background-color: #efefef;
+	width:300px;
+	float:left;
+	margin: 10px;
 }
-h1{
-	font-family: Georgia, time, serif;
-	font-size: 40px;
-	text-transform: uppercase;
+
+li{
+	display:inline;
+	padding:5px;
 }
