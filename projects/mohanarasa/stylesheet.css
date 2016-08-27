@@ -1,0 +1,12 @@
+body {
+	background-color: #94b8b8;
+}
+img.center {
+	display:block;
+	margin: 0 auto;
+}
+h1{
+	font-family: Georgia, time, serif;
+	font-size: 40px;
+	text-transform: uppercase;
+}

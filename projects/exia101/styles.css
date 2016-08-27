@@ -1,0 +1,38 @@
+html {
+  background-color: #E3F2FD;
+}
+
+section {
+  color: #333333;
+  font-family: Palatino Linotype;
+}
+.mountain {
+  height: auto;
+  width: 100%;
+}
+
+.slides {
+  height: auto;
+  width: 100%;
+}
+
+section#slider { overflow: hidden;
+}
+section#slider img {
+  width: 20%
+  float:left;
+}
+section#slider {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s infinite;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
