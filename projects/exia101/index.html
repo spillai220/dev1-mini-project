@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Hydropower Nepal</title>
   <link rel="stylesheet" href="styles.css">
@@ -8,12 +8,25 @@
   <section id="banner">
     <img src="banner.jpg" class="mountain">
   </section>
+
   <section id="navBar">
     <ul>
       <li><a href="#banner">Home</a></li>
-      <li><a href="#nepal">Nepal</a></li>
+      <li class="dropdown">
+        <a href="#nepal" class="dropbtn">Nepal</a>
+          <div class="hidden">
+            <a href="#nepal1">History</a>
+            <a href="#nepal2">Modern Nepal</a>
+          </div>
+      </li>
       <li><a href="#hydropot">Hydropower Potential</a></li>
-      <li><a href="#ecobenefits">Economic Benefits</a></li>
+      <li class="dropdown">
+        <a href="#ecobenefits" class="dropbtn">Economic Benefits</a>
+          <div class="hidden">
+            <a href="#ecobenefits1">Advantage and Relavance</a>
+            <a href="#ecobenefits2">Carbon Alternative</a>
+          </div>
+      </li>
       <li><a href="#issues">Issues and Barriers</a></li>
       <li><a href="#contact">Contact Us</a></li>
     </ul>
@@ -32,7 +45,7 @@
 
     <section id="nepal">
       <h1>Nepal</h1>
-      <h2>History:</h2>
+      <h2 id="nepal1">History:</h2>
         <p>The history of Nepal began in, and centres on, the Kathmandu Valley.
           Over the centuries Nepal's boundaries have extended to include huge
           tracts of neighbouring India, and contracted to little more than the
@@ -101,7 +114,7 @@
           Crown Prince Surendra, expanded the horizons of human suffering by
           ordering subjects to jump down wells or ride off cliffs, just to see
           whether they would die.</p>
-        <h3>Modern Nepal</h3>
+        <h3 id="nepal2">Modern Nepal</h3>
           <p>In response to the 2006 democracy movement, King Gyanendra agreed to
           relinquish sovereign power to the people. On 24 April 2006 the dissolved
           House of Representatives was reinstated. Using its newly acquired
@@ -149,7 +162,7 @@
 
     <section id="ecobenefits">
       <h2>Benefits:</h2>
-        <h3>Hydropower Advantages and Relavance</h3>
+        <h3 id="ecobenefits1">Hydropower Advantages and Relavance</h3>
           <h4>Advantages of Hydro Power</h4>
             <p>There are several advantages associated with hydropower:</p>
               <ul>
@@ -183,7 +196,7 @@
                 <li>real possibility to earn huge sums of foreign exchange as
                     secondary benefits in terms of carbon credit</li>
               </ul>
-        <h3>Carbon Alternative</h3>
+        <h3 id="ecobenefits2">Carbon Alternative</h3>
           <p>There is a little doubt that hydroelectricity is cleaner—in terms
              of carbon release—than the other sources of energy
              such as fossil fuels or biomass-based fuels. We have

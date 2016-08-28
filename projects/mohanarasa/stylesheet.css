@@ -1,6 +1,6 @@
 body {
 	width:960px;
-	margin:0 auto;
+	margin: 0 auto;
 	}
 	#content {
 		overflow:auto;
@@ -18,7 +18,7 @@ body {
 	margin: 10px;
 }
 
-li{
-	display:inline;
-	padding:5px;
+li {
+	display: inline;
+	padding: 5px;
 }
