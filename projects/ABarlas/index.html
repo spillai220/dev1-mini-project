@@ -6,16 +6,24 @@
         <title>Superintelligence</title>
     </head>
 
-<ul>
-  <li><a href="">Superintelligence</a></li>
-  <li id = "Contact"><a href="">Contact Me</a></li>
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="#home">Superintelligence</a></li>
+  <li><a href="#Contact">Contact</a>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
 </ul>
 
-<div class="city">
-  <h2>London</h2>
-  <p>London is the capital of England.</p>
-  <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 <div class="city">
   <h2>London</h2>
@@ -46,6 +54,21 @@
   <p>London is the capital of England.</p>
   <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
 </div>
+
+<div class="city">
+  <h2>London</h2>
+  <a name="Contact">
+  <p>London is the capital of England.</p>
+  <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million 444 inhabitants.</p>
+</div>
+
+<img class="img-circle" src="me.jpg">
+      <a href="http://linkedin.com" target="_blank"><img src="img/linkedin.png"/></a>
+      <a href="http://medium.com" target="_blank"><img src="img/medium.png"/></a>
+
+
+     
+     
 
 
 
