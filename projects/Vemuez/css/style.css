@@ -111,8 +111,22 @@ section#earth img {
   right:-125px;
 }
 
+section div#sun {
+
+}
+
+section div#wind {
+
+}
+
+section div#fossilFuel {
+  
+}
+
 /* 320px - 640px = Mobile */
 /* 640px - 960px = Tablet */
 /* 960px+ = Desktop */
 
 /* 504px make header title bigger, move tree to the left and add navigation */
+
+/* 640px make the earth image (and all the others) on the right place (remove off screen and place more in the middle) */
