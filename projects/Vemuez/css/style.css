@@ -2,6 +2,7 @@
 
 body {
   font-family: Arial, Verdana, sans-serif;
+  overflow-x:hidden;
 }
 
 h1, h2, header nav {
@@ -17,11 +18,18 @@ header > img {
   height:auto;
 }
 
+header > img::before {
+    content: '';
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 header > h1 {
   position:absolute;
-  top: calc(50% - 50px);
-  left: calc(50% - 268.5px);
-  font-size:50px;
+  top: calc(50% - 20px);
+  left: calc(50% - 107.4375px);
+  font-size:20px;
   color:#FFFFFF;
   text-shadow: 2px -2px #000000;
 }
@@ -32,6 +40,7 @@ header nav {
   height:60px;
   line-height:60px;
   text-align:center;
+  background-color: rgba(0, 0, 0, 0.5);
   /*padding:10px;
   margin-right:20px;*/
 }
@@ -41,9 +50,9 @@ header nav h1, header nav ul, header nav ul li {
 }
 
 header nav img {
-  height:100px;
-  width:100px;
-  padding:20px;
+  height:50px;
+  width:50px;
+  padding:3px;
   /*float:left;*/
 }
 
@@ -65,8 +74,14 @@ header nav ul li {
   margin:0 10px;
 }
 
+main {
+  max-width:640px;
+  margin:auto;
+}
+
 section {
   padding:30px 10px;
+  position:relative;
 }
 
 section h2 {
@@ -75,10 +90,29 @@ section h2 {
   margin:30px 0 50px 0;
 }
 
+section p {
+  text-align:center;
+}
+
+section#earth > div {
+  position:relative;
+}
+
 section#earth p {
   width:60%;
+  max-width:300px;
 }
 
 section#earth img {
-  float:right;
+  position:absolute;
+  width:250px;
+  height:250px;
+  top:calc(50% - 125px);
+  right:-125px;
 }
+
+/* 320px - 640px = Mobile */
+/* 640px - 960px = Tablet */
+/* 960px+ = Desktop */
+
+/* 504px make header title bigger, move tree to the left and add navigation */
