@@ -2,24 +2,23 @@
 <html>
 <head>
   <title>Online Profile</title>
+  <link rel="stylesheet" text="text/css" href="reset.css">
+  <link rel="stylesheet" text="text/css" href="style.css">
 </head>
-<header main="banner">
-<img src="nightsky.jpeg" alt="banner">
-	
-	<section main="profilePic">
-	<img src="avatar.png" alt="Avatar">
-		
-	</section>
-	<section main="personalDetail">
+<header>
+	<section class ="avatar" main="profilePic">
+	  <img src="avatar.png" alt="Avatar">
+  </section>
+	<section class="detail" main="personalDetail">
 		<h1>Sanjeev Pillai</h1>	
 		<p>268 Ripon Road, Stevenage, SG1 4NF</p>
 		<p>email: spillai220@gmail.com</p>
 		<p>mobile: 07462376043</p>
 	</section>
 </header>
+
 <nav main="navigation">
-	<p> nav Bar here</p>
-	<ul>
+	<ul id="nav">
 		<li><a href="index.html#aboutMe">About Me</a></li>
 		<li><a href="index.html#projects">Project</a></li>
 		<li><a href="index.html#education">Education</a></li>
@@ -28,6 +27,7 @@
 </nav>
 
 <body>
+<div id="container">
   <main>
 
   	<section class="aboutMe" id="aboutMe">
@@ -70,6 +70,7 @@
   	</section>
 
   </main>
+  </div>
 </body>
 <footer main="contact" id="contact"><a href="https://uk.linkedin.com/in/sanjeev-pillai-51b883127">   <img src="linkedin.png" alt="linkedin">
 </a>
