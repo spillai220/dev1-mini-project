@@ -1,0 +1,10 @@
+
+This website is being used for my project and only being used for educational purposes. 
+
+Sources of all material used for this website:
+
+http://www.hidcl.org.np/hydropower-advantages-and-relevance.php
+- used to provide context for hydropower potential section.
+
+http://file.scirp.org/pdf/JEP_2013071914103955.pdf
+- used to provide context for the benefits and, issues and barriers section.

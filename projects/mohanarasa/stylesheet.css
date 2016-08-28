@@ -1,0 +1,31 @@
+body {
+	background-color: #e6f3ff;
+}
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 400px;
+   height: 450px;
+   border: 1px solid black;
+}
+h1{
+    text-align: center;
+    font-family: "time";
+    color: black;
+    font-size: 50px;
+}
+
+header .background-image: {
+float: center;
+   max-width: 200px;
+   height: 450px;  
+}
+.linkedin {
+	width: 50px;
+	height:50px;
+}
+header .img {
+margin: 0 auto;
+  width: 80em;
+}
