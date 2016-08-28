@@ -1,21 +1,24 @@
 body {
-  background: #293f50;
-  color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:960px;
+	margin: 0 auto;
+	}
+	#content {
+		overflow:auto;
+		height:100%;
+	}
+#nav , #feature , #footer{
+	background-color: #efefef;
+	margin:10px;
+	padding: 10px 
+}
+.column1, .column2, .column3{
+	background-color: #efefef;
+	width:300px;
+	float:left;
+	margin: 10px;
 }
 
-h1{
-    text-align: center;
-    font-family: "Brush Script MT Italic";
-    color: black;
-    font-size: 30px;
-}
-header img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    float: center;
-}
-header p {
-	text-align: center;
+li {
+	display: inline;
+	padding: 5px;
 }

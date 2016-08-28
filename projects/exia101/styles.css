@@ -1,0 +1,53 @@
+/* Background image */
+html {
+  background-image: url("flags.jpg");
+  background-size: auto;
+  height: auto;
+  width: 100%;
+}
+
+/* Font */
+section {
+  color: #333333;
+  font-family: Palatino Linotype;
+  background-color: #90CAF9;
+  height: auto;
+  width: 100;
+  border-radius: 9px;
+}
+
+/* Banner */
+.mountain {
+  height: auto;
+  width: 100%;
+}
+
+/* NavBar */
+section#navBar ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #90CAF9;
+  border-radius: 9px;
+}
+
+section#navBar ul li {
+  float: left;
+}
+
+section#navBar ul li a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navBar li a:hover {
+  background-color: #64B5F6;
+}
+
+
+/
