@@ -1,5 +1,16 @@
+html{
+	text-align: center;
+}
+
 section {
 	border: 10px solid black;
+}
+
+body #container{
+	width: 960px;
+	margin: 0 auto;
+	border: 10px solid black;
+	
 }
 header section.banner{
 	width:100vw;
@@ -15,6 +26,10 @@ header section.avatar{
 .fit{
 	max-width: 100%;
 	max-height: 20%;
+}
+#size{
+	width:100px;
+	height:100px;
 }
 #sizer{
 	width:100%;
