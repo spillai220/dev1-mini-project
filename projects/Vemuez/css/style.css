@@ -82,6 +82,7 @@ main {
 section {
   padding:30px 10px;
   position:relative;
+  height:100vh;
 }
 
 section h2 {
@@ -111,16 +112,25 @@ section#earth img {
   right:-125px;
 }
 
-section div#sun {
+section#resources {
+  padding:0;
+  height:100%;
+}
+section#resources div {
+  height:100vh;
+  background-size:auto 100%;
+}
 
+section div#sun {
+  background: url("../img/sun.png") no-repeat;
 }
 
 section div#wind {
-
+  background: url("../img/wind.png") no-repeat;
 }
 
 section div#fossilFuel {
-  
+  background: url("../img/fossilFuel.png") no-repeat;
 }
 
 /* 320px - 640px = Mobile */
