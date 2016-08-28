@@ -22,8 +22,7 @@ section {
   width: 100%;
 }
 
-/* NavBar */
-section#navBar ul {
+/* NavBar  section#navBar ul {
   position: relative;
   list-style-type: none;
   margin: 0;
@@ -43,11 +42,77 @@ section#navBar ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  height: auto;
+  width: 100%;
 }
 
 #navBar li a:hover {
   background-color: #64B5F6;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-/
+.hidden {
+  display: none;
+  position: absolute;
+  background-color: #64B5F6;
+  min-width: 160px;
+  padding: 14px 16px;
+
+}
+
+.dropdown:hover .hidden {
+  display: block;
+}*/
+
+
+#navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #90CAF9;
+  border-radius: 9px;
+}
+
+#navBar li {
+  float: left;
+}
+
+#navBar li a, .dropbtn {
+  display: inline-block;
+  color: #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navBar li a:hover, .dropdown:hover .dropbtn {
+  background-color: #64B5F6;
+}
+
+#navBar li.dropdown {
+  display: inline-block;
+}
+
+#navBar .hidden {
+  display: none;
+  position: absolute;
+  background-color: #90CAF9;
+  min-width: 160px;
+}
+
+#navBar .hidden a {
+  color: #333333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#navBar .dropdown:hover .hidden {
+  display: block;
+}
