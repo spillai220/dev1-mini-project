@@ -9,3 +9,27 @@ body {
 	width: 100px;
 	text-align: center;
 }
+
+#nav2 {
+	background-color: white;
+	display: inline-block;
+	border: solid black 1px;
+	width: 100px;
+	text-align: center;
+}
+
+#nav3 {
+	background-color: white;
+	display: inline-block;
+	border: solid black 1px;
+	width: 100px;
+	text-align: center;
+}
+
+#nav4 {
+	background-color: white;
+	display: inline-block;
+	border: solid black 1px;
+	width: 100px;
+	text-align: center;
+}
