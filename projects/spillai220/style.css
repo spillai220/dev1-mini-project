@@ -1,31 +1,135 @@
 html{
 	text-align: center;
+	background-color: black;
+	
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+p{
+	text-align: justify;
+	font-size: 15px;
+	padding:5px;
+	margin: 8px;
 }
 
 section {
-	border: 10px solid black;
-}
+	border: 0px solid black;
+	height:50%;
 
+}
 body #container{
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
-	border: 10px solid black;
 	
 }
-header section.banner{
-	width:100vw;
-	height:100vh;
+body #page{
+	width: 95%;
+	border-radius: 10px;
+	margin: 0 auto;
+	background-color: white;
 }
-
-header section.avatar{
-	display: table;
-    margin: 0 auto;
-    padding-bottom: 0;
+#bannersContainer{
+	position: relative;
+	width: 100%;
 }
+#banner {
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+.avatar{
+	
+    
+}
+img#prof{
+	position: absolute;
+    bottom:-30px;
+    right:420px;
+	width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.detail{
+	text-align: center;
+}
+nav{
+	width: 100%;
+	margin: 20px 0;
+}
+nav ul{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li{
+	width: 25%;
+	float:left;
+	padding: 0;
+	margin: 0;
 
+	/*box-shadow: 0 0 1px #000; /* x offset, y offset, size, color */
+	
+}
+nav ul li a{
+	display: block;
+	width: 100%;
+	padding:10px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9dd53a+0,a1d54f+50,80c217+51,7cbc0a+100;Green+Gloss+%231 */
+background: rgb(157,213,58); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+text-decoration: none;
+
+}
+nav ul li a:hover{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8b+0,cdeb8b+100;Green+Flat+%235 */
+background: rgb(205,235,139); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(205,235,139,1) 0%, rgba(205,235,139,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(205,235,139,1) 0%,rgba(205,235,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(205,235,139,1) 0%,rgba(205,235,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', endColorstr='#cdeb8b',GradientType=0 ); /* IE6-9 */
+
+}
+nav ul li:first-child a{
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+nav ul li:nth-last-child(1) a{
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+nav ul li
 .fit{
 	max-width: 100%;
 	max-height: 20%;
+}
+div#navSizer{
+	width: 100%;
+	margin: 0 auto ;
 }
 #size{
 	width:100px;
@@ -35,31 +139,108 @@ header section.avatar{
 	width:100%;
 	height:200px;
 }
-nav ul#nav {
-	display: table;
-	margin: 0 auto;
+ul{
+	list-style-type: none;
+}
+
+ul#proj{
+	list-style-type: none;
+	display: inline-block;
+}
+table{
+	width:100%;
+	border-collapse: collapse;
 
 }
-nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color:#333;
+th, td{
+	border-collapse: collapse;
 }
-nav ul li{
-	float:left;
-}
-nav ul li a{
-	display: block;
-	color:white;
+div#project tr th{
+	padding: 5px;
 	text-align: center;
-	padding: 14px 50px;
-	text-decoration: none;
+	margin: 0 auto;
+	width:33.33%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
 }
-nav ul li a:hover{
-	background-color: #111;
+div#project tr td{
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width:33.33%;
+	display: block;
+	border: none;
 }
-nav ul li a.active {
-	background-color: #4CAF50;
+div#project tr th:before{
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-left: 10px;
+	white-space: nowrap;
+
 }
+div#project tr th:nth-of-type(1):before {content: "Online CV"; }
+div#project tr th:nth-of-type(2):before {content: "Engine Diagnostics tool"; }
+div#project tr th:nth-of-type(3):before {content: "Activity Program app"; }
+
+div#project tr td{
+	display: none;
+	font-weight: bold;
+}
+
+.education ul{
+	list-style-type: none;
+
+}
+.contact img{
+	width: 50px;
+	padding: 15px;
+	height: 50px;
+}
+
+@media screen and (min-width: 640px){
+	header section.avatar{
+		float: left;
+	}
+	.projects ul li{
+		width: 25%;
+		float: left;
+	}
+	table{
+	width:100%;
+	border-collapse: collapse;
+}
+th, td{
+	width:33.3%;
+	text-align: center;
+}	
+div#project tr th{
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	width: 33.33%;
+	display: inline-table;
+	border-bottom: 0px solid #eee;
+}
+div#project tr td{
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	width: 33.33%;
+	display: inline-table;
+	border-bottom: 0px solid #eee;
+
+}
+
+div#project tr th:nth-of-type(1):before { display: none }
+div#project tr th:nth-of-type(2):before { display: none }
+div#project tr th:nth-of-type(3):before { display: none }
+	
+	
+}
+
+} 
