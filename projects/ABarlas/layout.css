@@ -8,7 +8,7 @@
    float: left;
    margin: 10px;
    padding: 20px;
-   max-width: 300px;
+   max-width: 600px;
    height: 300px;
    border: 3px solid black;
 }
@@ -63,7 +63,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-<a href="#unique-identifier">Click me!</a>
+
 
 footer {
 position: fixed;
