@@ -39,7 +39,7 @@ header section.avatar{
 }
 nav{
 	width: 100%;
-	margin: 25px 0;
+	margin: 20px 0;
 }
 nav ul{
 	width: 100%;
@@ -50,17 +50,51 @@ nav ul{
 }
 nav ul li{
 	width: 25%;
-	float: left;
+	float:left;
+	padding: 0;
+	margin: 0;
+
+	/*box-shadow: 0 0 1px #000; /* x offset, y offset, size, color */
 	
 }
 nav ul li a{
 	display: block;
 	width: 100%;
-}
+	padding:10px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9dd53a+0,a1d54f+50,80c217+51,7cbc0a+100;Green+Gloss+%231 */
+background: rgb(157,213,58); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+text-decoration: none;
 
+}
+nav ul li a:hover{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8b+0,cdeb8b+100;Green+Flat+%235 */
+background: rgb(205,235,139); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(205,235,139,1) 0%, rgba(205,235,139,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(205,235,139,1) 0%,rgba(205,235,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(205,235,139,1) 0%,rgba(205,235,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', endColorstr='#cdeb8b',GradientType=0 ); /* IE6-9 */
+
+}
+nav ul li:first-child a{
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+nav ul li:nth-last-child(1) a{
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+nav ul li
 .fit{
 	max-width: 100%;
 	max-height: 20%;
+}
+div#navSizer{
+	width: 90%;
+	margin: 0 auto ;
 }
 #size{
 	width:100px;
@@ -90,7 +124,6 @@ ul#proj{
 	}
 	.projects ul li{
 		width: 25%;
-		
 		float: left;
 	}
 	
