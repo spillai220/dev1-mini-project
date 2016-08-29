@@ -118,8 +118,8 @@ section#earth p {
 section#earth img {
   position:absolute;
   width:250px;
-  height:300px;
-  top:calc(50% - 125px);
+  height:320px;
+  top:calc(50% - 150px);
   right:-125px;
 }
 
@@ -157,8 +157,38 @@ section#technologies {
   height:100%;
 }
 
-section#technologies div {
+section#technologies > div {
   height:75vh;
+  position:relative;
+}
+
+section#technologies div#solarPanel p {
+  position:absolute;
+  right:0;
+  top:35%;
+}
+
+section#technologies div#solarPanel img {
+  position:absolute;
+  width:250px;
+  height:227.53; /*113.765*/
+  top:calc(50% - 113.765px);
+  left:-125px;
+
+}
+
+section#technologies div#windTurbine p {
+  position:absolute;
+  left:0;
+  top:35%;
+}
+
+section#technologies div#windTurbine img {
+  position:absolute;
+  width:250px;
+  height:400px;
+  top: calc(50% - 200px);
+  right:-125px;
 }
 
 /* 320px - 640px = Mobile */
