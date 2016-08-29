@@ -111,8 +111,52 @@ ul{
 ul#proj{
 	list-style-type: none;
 	display: inline-block;
+}
+table{
+	width:100%;
+	border-collapse: collapse;
 
 }
+th, td{
+	border-collapse: collapse;
+}
+div#project tr th{
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width:33.33%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+}
+div#project tr td{
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width:33.33%;
+	display: block;
+	border: none;
+}
+div#project tr th:before{
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45s%;
+	padding-left: 10px;
+	white-space: nowrap;
+
+}
+div#project tr th:nth-of-type(1):before {content: "Online CV"; }
+div#project tr th:nth-of-type(2):before {content: "Engine Diagnostics tool"; }
+div#project tr th:nth-of-type(3):before {content: "Activity Program app"; }
+
+div#project tr td{
+	display: none;
+	font-weight: bold;
+}
+
 .education ul{
 	list-style-type: none;
 
@@ -126,6 +170,36 @@ ul#proj{
 		width: 25%;
 		float: left;
 	}
+	table{
+	width:100%;
+	border-collapse: collapse;
+}
+th, td{
+	width:33.3%;
+	text-align: center;
+}
+	
+div#project tr th{
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	width: 33.33%;
+	display: inline-table;
+	border-bottom: 0px solid #eee;
+}
+div#project tr td{
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	width: 33.33%;
+	display: inline-table;
+	border-bottom: 0px solid #eee;
+
+}
+
+div#project tr th:nth-of-type(1):before { display: none }
+div#project tr th:nth-of-type(2):before { display: none }
+div#project tr th:nth-of-type(3):before { display: none }
 	
 	
 }
