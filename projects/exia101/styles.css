@@ -105,11 +105,33 @@ section {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  border-radius: 9px;
 }
 
-#logo1 {
+.logo2 {
+  display: none;
+}
+
+
+#logos {
   background-color: transparent;
   height: auto;
   width: 100;
-  border-radius: none;
+}
+
+
+@media only screen and (max-width: 640px) {
+  .logo {
+    display: none;
+  }
+
+  .logo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 9px;
+    width: 100%;
+
+  }
 }
