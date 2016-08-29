@@ -1,14 +1,19 @@
-
-
-#Contact  {
-	margin-left: 1000px;
+.city1 {
+   float: right;
+   margin: 10px;
+   padding: 20px;
+   max-width: 700px;
+   height: 480px;
+   border: 3px solid black;
 }
+
+
 
 .city {
    float: left;
    margin: 10px;
    padding: 20px;
-   max-width: 300px;
+   max-width: 6500px;
    height: 300px;
    border: 3px solid black;
 }
@@ -38,7 +43,7 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:873px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -46,7 +51,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:873px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -63,7 +68,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-<a href="#unique-identifier">Click me!</a>
+
 
 footer {
 position: fixed;
@@ -74,4 +79,11 @@ bottom: 0px;
 .img-circle {
     border-radius: 100%;
 }
+
+
+
+
+
+
+
 
