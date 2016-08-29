@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    font-size: 130%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #230439;
+}
+
+.active {
+    background-color: #230439;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+li a { 
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #162955;
+}
+
+.active {
+    background-color: #162955;
+}
+
+
+}
+
+@media only screen and (max-width: 640px) {
+
+ul {
+    font-size: 110%;
+}
+
+}
