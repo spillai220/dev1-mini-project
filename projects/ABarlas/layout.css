@@ -3,8 +3,9 @@
    margin: 10px;
    padding: 20px;
    max-width: 700px;
-   height: 480px;
+   height: 500px;
    border: 3px solid black;
+
 }
 
 
@@ -13,9 +14,10 @@
    float: left;
    margin: 10px;
    padding: 20px;
-   max-width: 6500px;
+   max-width: 600px;
    height: 300px;
    border: 3px solid black;
+  
 }
 
 body {margin:0;}
@@ -46,7 +48,7 @@ ul.topnav li.icon {display: none;}
 @media screen and (max-width:873px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
-    float: right;
+    float: left;
     display: inline-block;
   }
 }
