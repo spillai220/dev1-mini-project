@@ -1,5 +1,7 @@
 html{
 	text-align: center;
+	background-color: black;
+	
 }
 h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 
@@ -16,26 +18,41 @@ section {
 	height:50%;
 
 }
-
 body #container{
-	
-	max-width: 960px
-	width: 100%;
-	margin: 0 auto;
-	border: 10px solid black;
-	
-}
-header section.banner{
-	width:100vw;
-	height:100vh;
-}
+	max-width: 960px;
 
+	margin: 0 auto;
+	
+}
+body #page{
+	width: 95%;
+	border-radius: 10px;
+	margin: 0 auto;
+	background-color: white;
+}
+#bannersContainer{
+	position: relative;
+}
+#banner {
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
 header section.avatar{
 	display: table;
 	margin: 0 auto;
     width:"50";
     height:"50";
     padding-bottom: 0;
+}
+img#prof{
+	position: absolute;
+    right:;
+    top:50%;
+	width:100px;
+    height:100px;
+    border-radius: 50%;
 }
 nav{
 	width: 100%;
@@ -93,7 +110,7 @@ nav ul li
 	max-height: 20%;
 }
 div#navSizer{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto ;
 }
 #size{
@@ -111,8 +128,52 @@ ul{
 ul#proj{
 	list-style-type: none;
 	display: inline-block;
+}
+table{
+	width:100%;
+	border-collapse: collapse;
 
 }
+th, td{
+	border-collapse: collapse;
+}
+div#project tr th{
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width:33.33%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+}
+div#project tr td{
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width:33.33%;
+	display: block;
+	border: none;
+}
+div#project tr th:before{
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-left: 10px;
+	white-space: nowrap;
+
+}
+div#project tr th:nth-of-type(1):before {content: "Online CV"; }
+div#project tr th:nth-of-type(2):before {content: "Engine Diagnostics tool"; }
+div#project tr th:nth-of-type(3):before {content: "Activity Program app"; }
+
+div#project tr td{
+	display: none;
+	font-weight: bold;
+}
+
 .education ul{
 	list-style-type: none;
 
@@ -126,6 +187,35 @@ ul#proj{
 		width: 25%;
 		float: left;
 	}
+	table{
+	width:100%;
+	border-collapse: collapse;
+}
+th, td{
+	width:33.3%;
+	text-align: center;
+}	
+div#project tr th{
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	width: 33.33%;
+	display: inline-table;
+	border-bottom: 0px solid #eee;
+}
+div#project tr td{
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	width: 33.33%;
+	display: inline-table;
+	border-bottom: 0px solid #eee;
+
+}
+
+div#project tr th:nth-of-type(1):before { display: none }
+div#project tr th:nth-of-type(2):before { display: none }
+div#project tr th:nth-of-type(3):before { display: none }
 	
 	
 }

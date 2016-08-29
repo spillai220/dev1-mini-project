@@ -1,23 +1,38 @@
 .city1 {
-   float: right;
+  text-align: center;
+}
+
+.city1 {
+   float: fixed;
    margin: 10px;
    padding: 20px;
    max-width: 700px;
-   height: 500px;
+   height: 505px;
    border: 3px solid black;
+   text-align: :right;
 
 }
 
 
+.SAI {
+  height: 100%;
+  width: 100%;
+}
+
 
 .city {
-   float: left;
+   float: fixed;
    margin: 10px;
    padding: 20px;
-   max-width: 600px;
-   height: 300px;
+   max-width: 1920px;
+   height: 505px;
    border: 3px solid black;
   
+}
+
+div {
+  outline-color:purple;
+  outline-style: :solid;
 }
 
 body {margin:0;}
@@ -34,7 +49,7 @@ ul.topnav li {float: left;}
 ul.topnav li a {
   display: inline-block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
   transition: 0.3s;
@@ -45,15 +60,15 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:873px) {
+@media screen and (max-width:770px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
-    float: left;
+    float: right;
     display: inline-block;
   }
 }
 
-@media screen and (max-width:873px) {
+@media screen and (max-width:770px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -72,15 +87,55 @@ ul.topnav li.icon {display: none;}
 
 
 
-footer {
-position: fixed;
-bottom: 0px;
-}
+
 
 
 .img-circle {
     border-radius: 100%;
 }
+
+img {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+
+
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url('icon_top.png') no-repeat;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
