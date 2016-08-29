@@ -1,0 +1,73 @@
+@media only screen and (min-width: 640px) {
+    body {
+        
+	background-image: url("red.jpg");
+	
+
+    }
+  
+
+    section#two{
+   
+	   background: #FFB1B1;
+	   border-color: #CB3939;
+	  
+
+    }
+
+    section#three{
+   
+	   background: #EC6161;
+	   border-color: #CB3939;
+	   
+
+    }
+
+    section#four{
+   
+	   background: #FFB1B1;
+	   border-color: #CB3939;
+	   
+
+    }
+ section{
+
+font-size: 90%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+}
+
+@media only screen and (min-width: 980px) {
+	
+
+	section{
+
+font-size: 130%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section#two{
+
+	height: 35vw;
+}
+
+}
+
+@media only screen and (min-width: 1280px){
+
+	section{
+
+font-size: 150%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section#two{
+
+	height: 35vw;
+}
+
+}

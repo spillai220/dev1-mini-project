@@ -1,0 +1,119 @@
+@import "reset.css";
+@import "nav.css";
+
+
+body {
+	background-image: url("bg.jpg");
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+	line-height: 1.75;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-family: monospace;
+}
+aside{
+	width: 100%;
+	background-color: black;
+	float: left;
+	position: absolute;
+}
+h1{
+	font-style: italic ;
+	font-size: 20px; 
+	color: #483D8B;
+}
+h4{
+ font-style: italic;
+ text-decoration: underline;
+}
+h3{
+
+	color: white;
+	font-style: italic;
+}
+section#one img{
+	border-radius: 60%;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+section#two p{
+	background-color:#9EAAD8;
+	border-radius: 10px;
+	font-size: 100%; 
+	margin: 0 auto;
+}
+main{
+ 	background-width : 70vw;
+ 	
+}
+section#three p{
+	background-color:#CED5F0;
+	border-radius: 10px;
+	font-size: 100%; 
+	margin: 0 auto;
+}
+
+section#four p{
+	
+	background-color:#9EAAD8;
+	border-radius: 10px;
+	font-size: 100%;
+	margin: 0 auto;
+}
+
+
+
+ 
+
+section#five p{
+	background-color:#9EAAD8;
+	border-radius: 10px;
+	font-size: 100%; 
+	margin: 0 auto;
+}
+
+footer a img {
+	margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 640px) {
+    body {
+	background-image: url("red.jpeg");
+    }
+    main{
+	border-color: #D46D6A;
+
+    }
+    h1{
+    font-size: 30px;
+	color: #9576AB;
+    }
+ 
+    section#two p{
+	   background: #734C8F;
+	
+	   
+
+    }
+    section#three p{
+	   background: #9576AB;
+	   
+    }
+
+    section#four p{
+	   background: #734C8F;
+	  
+	      }
+
+    section#five p{
+	background-color: #9576AB;
+	
+}
+
+}
