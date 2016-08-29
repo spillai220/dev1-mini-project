@@ -130,12 +130,15 @@ section#resources {
 
 section#resources div {
   padding:30px 0;
-  height:75vh;
+  height:85vh;
   color:#FFFFFF;
 }
 
 section#resources div p {
-  margin:37.5% 0;
+  margin:25% 0;
+  padding:0px 30px;
+  font-size:20px;
+  line-height:30px;
 }
 
 section div#sun {
