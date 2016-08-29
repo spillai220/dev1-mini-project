@@ -166,6 +166,8 @@ section#technologies div#solarPanel p {
   position:absolute;
   right:0;
   top:35%;
+  width:60%;
+  max-width:300px;
 }
 
 section#technologies div#solarPanel img {
@@ -181,6 +183,8 @@ section#technologies div#windTurbine p {
   position:absolute;
   left:0;
   top:35%;
+  width:60%;
+  max-width:300px;
 }
 
 section#technologies div#windTurbine img {
