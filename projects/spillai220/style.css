@@ -1,6 +1,15 @@
 html{
 	text-align: center;
 }
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
 
 section {
 	border: 0px solid black;
@@ -28,6 +37,26 @@ header section.avatar{
     height:"50";
     padding-bottom: 0;
 }
+nav{
+	width: 100%;
+	margin: 25px 0;
+}
+nav ul{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li{
+	width: 25%;
+	float: left;
+	
+}
+nav ul li a{
+	display: block;
+	width: 100%;
+}
 
 .fit{
 	max-width: 100%;
@@ -44,33 +73,7 @@ header section.avatar{
 ul{
 	list-style-type: none;
 }
-nav ul#nav {
-	display: table;
-	margin: 0 auto;
 
-}
-nav ul{
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color:#333;
-}
-nav ul li{
-	float:left;
-}
-nav ul li a{
-	display: block;
-	color:white;
-	text-align: center;
-	padding: 14px 50px;
-	text-decoration: none;
-}
-nav ul li a:hover{
-	background-color: #111;
-}
-nav ul li a.active {
-	background-color: #4CAF50;
-}
 ul#proj{
 	list-style-type: none;
 	display: inline-block;
