@@ -1,0 +1,106 @@
+main {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+header img#imgone{
+  width: 20px;
+  display: block;
+}
+
+
+header img#imgtwo{
+  margin-bottom: 0px;
+  width: 200px;
+  border-radius: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+div {
+  text-align: center;
+  color: black;
+  
+}
+
+main section#about {
+	background-color: #5FA8D3;
+
+
+}
+main section#passion {
+	background-color: #D4F4DD;
+}
+
+section {
+  
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+article {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+footer {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: black;
+  background-color: white;
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+section >p {
+  margin-right: 630px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 800px) {
+  article > p{
+  margin-right: 500px;
+  font-size: 18px;
+  line-height: 1.5;
+
+}
+@media screen and (min-width: 800px) {
+#imgone{
+ 
+  height: 200px;
+  position:absolute;
+left: -30px;
+top: -10px;
+}
+
+@media screen and (max-width: 800px) {
+    footer{
+        width: 100%;
+		    height: 30%;
+
+}
+}
+
+

@@ -1,24 +1,31 @@
 body {
-	width:960px;
-	margin: 0 auto;
-	}
-	#content {
-		overflow:auto;
-		height:100%;
-	}
-#nav , #feature , #footer{
-	background-color: #efefef;
-	margin:10px;
-	padding: 10px 
+	background-color: #e6f3ff;
 }
-.column1, .column2, .column3{
-	background-color: #efefef;
-	width:300px;
-	float:left;
-	margin: 10px;
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 400px;
+   height: 450px;
+   border: 1px solid black;
+}
+h1{
+    text-align: center;
+    font-family: "time";
+    color: black;
+    font-size: 50px;
 }
 
-li {
-	display: inline;
-	padding: 5px;
+header .background-image: {
+float: center;
+   max-width: 200px;
+   height: 450px;  
+}
+.linkedin {
+	width: 50px;
+	height:50px;
+}
+header .img {
+margin: 0 auto;
+  width: 80em;
 }
