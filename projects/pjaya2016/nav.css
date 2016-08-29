@@ -4,7 +4,7 @@ ul {
     padding: 0;
     width: 100%;
     position: fixed;
-    font-size: 100%;
+    font-size: 130%;
 }
 
 li {
@@ -48,7 +48,7 @@ li a:hover:not(.active) {
 @media only screen and (max-width: 640px) {
 
 ul {
-    font-size: 90%;
+    font-size: 110%;
 }
 
 }
