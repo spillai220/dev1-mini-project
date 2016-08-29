@@ -11,6 +11,24 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
   outline: 0;
   font-size: 100%;
   background: transparent;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+p{
+	text-align: justify;
+	font-size: 15px;
+	padding:5px;
+	margin: 8px;
 }
 
 section {
@@ -20,7 +38,6 @@ section {
 }
 body #container{
 	max-width: 960px;
-
 	margin: 0 auto;
 	
 }
@@ -32,6 +49,7 @@ body #page{
 }
 #bannersContainer{
 	position: relative;
+	width: 100%;
 }
 #banner {
     height: auto; 
@@ -39,20 +57,20 @@ body #page{
     max-width: 100%; 
     max-height: 100%;
 }
-header section.avatar{
-	display: table;
-	margin: 0 auto;
-    width:"50";
-    height:"50";
-    padding-bottom: 0;
+.avatar{
+	
+    
 }
 img#prof{
 	position: absolute;
-    right:;
-    top:50%;
+    bottom:-30px;
+    right:420px;
 	width:100px;
     height:100px;
     border-radius: 50%;
+}
+.detail{
+	text-align: center;
 }
 nav{
 	width: 100%;
@@ -177,6 +195,11 @@ div#project tr td{
 .education ul{
 	list-style-type: none;
 
+}
+.contact img{
+	width: 50px;
+	padding: 15px;
+	height: 50px;
 }
 
 @media screen and (min-width: 640px){
