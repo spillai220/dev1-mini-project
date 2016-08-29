@@ -77,11 +77,10 @@ section#five p{
 #test {
     position: fixed;
     right: 0px;
-    top: 150px;
+    bottom: 10px;
     font-size: 120%;
 	border-radius: 50px;
     z-index: 1;
-    
     background-color: red;
 }
 
