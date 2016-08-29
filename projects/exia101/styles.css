@@ -24,7 +24,6 @@ section {
 
 /* NavBar */
 
-
 #navBar ul {
   list-style-type: none;
   margin: 0;
@@ -32,6 +31,8 @@ section {
   overflow-x: hidden;
   background-color: #90CAF9;
   border-radius: 9px;
+  margin-top: 9px;
+  position: fixed-top;
 }
 
 #navBar li {
@@ -82,19 +83,20 @@ section {
 @media screen and (max-width : 640px)  {
   ul {
     position: static;
-    display: none;
   }
 
-  li {
-    margin-bottom: 1px;
-  }
 
-  ul li, li a {
+  section #navBar {
+    margin-top: 10px;
     width: 100%;
   }
 
   .navMenu {
     display: block;
+  }
+
+  #navBar li {
+    float: none;
   }
 
 }
