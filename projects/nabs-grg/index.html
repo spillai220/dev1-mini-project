@@ -1,131 +1,186 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Photography Hub</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <title>Photography Hub</title>
+    <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
+
 <body>
-	<header>
-		<h1>PHOTOGRAPHY HUB</h1>
-		<img src = "image/background_image.jpg" alt = "home screen" />
-		<h2>Welcome to photography world</h2>
-	</header>
+    <header>
+        <h1 role="banner">PHOTOGRAPHY HUB</h1>
+        <img alt="home screen" src="image/background_image.jpg">
 
-	<main>
-		<section id="bio">
-		<img id="profile" src = "image/profile.jpg" alt = "profile picture" />
-		</section>
+        <h2 role="contentinfo">Welcome to photography world</h2>
+    </header>
 
-		<section id="details">
-		<p id="mainbio">
-			<h3>Bio</h3>
-			Name: Narbu Gurung<br />
-			Camera: Canon 600D and iPhone 5s<br />
-			Lens: 10 - 20mm canon, 17-55mm f2.8 sigma and Olloclip 4 in 1 lens for iphone 5s <br />
-			Photography Category: Landscape and Night Photography
-		</p>
-		</section>
-			
-		<section id="section1">
-			<img id="image1" src = "image/thames_river.jpg" alt = "image1" />
-			<p class="metadata">End of another day at Thames river in Oxford</p>
-		</section>
-			
-		<section id="section2">
-			<img id="image2" src = "image/shoe.jpg" alt = "image2" />
-			<p class="metadata">Flying Nike SB Janoski</p>
-		</section>
 
-		<section id="section3">
-			<img id="image3" src = "image/starry_night.jpg" alt = "image3" />
-			<p class="metadata">Starry Night at Llanberies, North Wales</p>
-		</section>
+    <main role="main">
+        <section id="bio">
+            <img alt="profile picture" id="profile" src="image/profile.jpg">
+        </section>
 
-		<section id="section4">
-			<img id="image4" src = "image/thames_river.jpg" alt = "image4" />
-			<p class="metadata">Fireworks at Guy Fawks Night</p>
-		</section>
 
-		<section id="section5">
-			<img id="image5" src = "image/shoe.jpg" alt = "image5" />
-			<p class="metadata"> Fireworks at Guy Fawks Night</p>
-		</section>
+        <section id="details">
+            <p id="mainbio"></p>
 
-		<section id="section6">
-			<img id="image6" src = "image/starry_night.jpg" alt = "image6" />
-			<p class="metadata">Fireworks at Guy Fawks Night</p>
-		</section>
+            <h3>Bio</h3>
+            Name: Narbu Gurung<br>
+            Camera: Canon 600D and iPhone 5s<br>
+            Lens: 10 - 20mm canon, 17-55mm f2.8 sigma and Olloclip 4 in 1 lens
+            for iphone 5s<br>
+            Photography Category: Landscape and Night Photography
 
-	</main>
+        </section>
 
-	<footer>
-		<form action="http://lacedeamon.spartaglobal.com/contactform" method="POST" role="form">
 
-      	<fieldset>
+        <section id="section1">
+            <img alt="image1" id="image1" src="image/thames_river.jpg">
 
-      <legend>Contact Form</legend>
+            <p class="metadata">End of another day at River Thames in
+            Oxford</p>
+        </section>
 
-      <p class="name">   
-         <label for="name">Name:</label>
-         <input type="text" name="name" id="name" placeholder="Name">
-      </p>
 
-      <p>
-         <label for="email">Email:</label>
-         <input type="email" name="email" id="email" placeholder="Email address">
-      </p>
+        <section id="section2">
+            <img alt="image2" id="image2" src="image/shoe.jpg">
 
-      <p>
-         <input type="hidden" name="addressee" id="addressee" value="narbu.grg@gmail.com"/>
-      </p>
+            <p class="metadata">Flying Nike SB Janoski</p>
+        </section>
 
-      <p>
-      	<label for="subject">Subject:</label>
- 		<input type="text" name="subject" id="subject" placeholder="Subject">
-      </p>
 
-      <p>
-         <label for="textarea">Message:</label>
-         <textarea cols="30" rows="6" name="textarea" id="textarea" placeholder="Message"></textarea>
-      </p>
+        <section id="section3">
+            <img alt="image3" id="image3" src="image/starry_night.jpg">
 
-      <p class="submit">
-         <input type="submit" value="Submit" rolw="button">
-         <input type="reset" value="Reset" role="button">
-      </p>
+            <p class="metadata">Starry Night at Llanberies, North Wales</p>
+        </section>
 
-      </fieldset>
-      </form>
 
-      <ul id="icon">
+        <section id="section4">
+            <img alt="image4" id="image4" src="image/firework.jpg">
 
-      <li>	
-      	<img id="mainlogo" src="image/mainlogo.png " alt="main logo">
-      </li>
+            <p class="metadata">Fireworks at Guy Fawkes Night in Guildford</p>
+        </section>
 
-      <li>
-      	<a id="facebook" target="_blank" title="follow me on facebook" href="http://www.facebook.com/PLACEHOLDER"><img alt="follow me on facebook" src="https://www.facebook.com/sasonian.grg"></a>
-      </li>
 
-      <li>
-      	<a target="_blank" title="follow me on Twitter" href="http://www.twitter.com/PLACEHOLDER"><img alt="follow me on twitter" src="https://twitter.com/Narbugrg" border=0></a>
-      </li>
+        <section id="section5">
+            <img alt="image5" id="image5" src="image/forth_bridge.jpg">
 
-      <li>
-      	<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/PLACEHOLDER"><img alt="follow me on instagram" src="https://www.instagram.com/nrbu/?hl=en" border=0></a>
-      </li>
+            <p class="metadata">Forth Bridge at Edinburgh,Scotland</p>
+        </section>
 
-      <li>
-      	<a target="_blank" title="follow me on google plus" href="https://plus.google.com/PLACEHOLDER"><img alt="follow me on google plus" src="https://plus.google.com/111515944928680189893/posts" border=0></a>
-      </li>
 
-      <li>
-      	<a target="_blank" title="follow me on pinterest" href="http://www.pinterest.com/PLACEHOLDER"><img alt="follow me on pinterest" src="https://uk.pinterest.com/nrbu/" border=0></a>
-      <li>
-      </ul>
-    
-	</footer>
+        <section id="section6">
+            <img alt="image6" id="image6" src="image/london_eye.jpg">
 
+            <p class="metadata">London Eye on the south banks of River Thames</p>
+        </section>
+
+        <section id="section7">
+            <img alt="image7" id="image7" src="image/penyfan.jpg">
+
+            <p class="metadata">Pen y Fan is the highest peak in South Wales</p>
+        </section>
+
+        <section id="section8">
+            <img alt="image8" id="image8" src="image/snowdonia.jpg">
+
+            <p class="metadata">On the way to Snowdonia Peak in North-West Wales</p>
+        </section>
+
+        <section id="section9">
+            <img alt="image9" id="image9" src="image/henley_regatta.jpg">
+
+            <p class="metadata">Henley Regatta on River Thames</p>
+        </section>
+    </main>
+
+
+    <footer>
+        <form action="http://lacedeamon.spartaglobal.com/contactform" method=
+        "post" role="form">
+            <fieldset>
+                <legend>Contact Form</legend>
+
+                <p class="name"><label for="name">Name:</label> <input id=
+                "name" name="name" placeholder="Name" type="text"></p>
+
+
+                <p><label for="email">Email:</label> <input id="email" name=
+                "email" placeholder="Email address" type="email"></p>
+
+
+                <p><input id="addressee" name="addressee" type="hidden" value=
+                "narbu.grg@gmail.com">
+                </p>
+
+
+                <p><label for="subject">Subject:</label> <input id="subject"
+                name="subject" placeholder="Subject" type="text"></p>
+
+
+                <p><label for="textarea">Message:</label> 
+
+                <textarea cols="30" id="textarea" name="textarea" placeholder=
+                "Message" rows="6"></textarea></p>
+
+
+                <p class="submit"><input type="submit" value="Submit">
+                <input role="button" type="reset" value="Reset"></p>
+            </fieldset>
+        </form>
+
+
+        <ul id="icon" role="listitem">
+            <li><img alt="main logo" id="mainlogo" src="image/mainlogo.png">
+            </li>
+
+
+            <li>
+                <a href="https://www.facebook.com/sasonian.grg" id="facebook"
+                target="_blank" title="follow me on facebook"><img alt=
+                "follow me on facebook" border="0" src=
+                "https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png"></a>
+            </li>
+
+
+            <li>
+                <a href="https://twitter.com/Narbugrg" target="_blank" title=
+                "follow me on Twitter"><img alt="follow me on twitter" border=
+                "0" src=
+                "https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png"></a>
+            </li>
+
+
+            <li>
+                <a href="https://www.instagram.com/nrbu/?hl=en" target="_blank"
+                title="follow me on instagram"><img alt=
+                "follow me on instagram" border="0" src=
+                "https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png"></a>
+            </li>
+
+
+            <li>
+                <a href="https://plus.google.com/111515944928680189893/posts"
+                target="_blank" title="follow me on google plus"><img alt=
+                "follow me on google plus" border="0" src=
+                "https://c866088.ssl.cf3.rackcdn.com/assets/googleplus40x40.png"></a>
+            </li>
+
+
+            <li>
+                <a href="https://uk.pinterest.com/nrbu/" target="_blank" title=
+                "follow me on pinterest"><img alt="follow me on pinterest"
+                border="0" src=
+                "https://c866088.ssl.cf3.rackcdn.com/assets/pinterest40x40.png"></a>
+            </li>
+
+
+            <li>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
