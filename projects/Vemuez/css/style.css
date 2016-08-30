@@ -104,17 +104,17 @@ section p {
   text-align:center;
 }
 
-section#earth > div {
+section#earth div > div {
   margin:35% 0;
   position:relative;
 }
 
-section#earth p {
+section#earth div div > p {
   width:60%;
   max-width:300px;
 }
 
-section#earth img {
+section#earth div div > img {
   position:absolute;
   width:250px;
   height:320px;
@@ -288,23 +288,19 @@ footer form input[type="submit"]:hover {
     margin:auto;
   }
 
-  section#earth img {
+  section#earth div div > img {
     right:0px;
   }
 
   section#resources {
     width:100%;
-    height:calc(100vh + 20px);
+    height:calc(100vh + 40px);
   }
 
   section#resources div {
     height:85vh;
     width:33.33%;
     float:left;
-  }
-
-  section#technologies {
-    margin-top:30px;
   }
 
   section#technologies div#solarPanel img {
@@ -330,19 +326,64 @@ footer form input[type="submit"]:hover {
   }
 
   section#earth > div {
-    margin:20% 0;
+    width:100%;
+    top:calc(50% - 306.937px);
+    position:absolute;
+  }
+
+  section#earth div > div {
+    height:100%;
+    width:100%;
     position:relative;
   }
 
-  section#earth p {
+  section#earth div div > p {
     width:60%;
     max-width:500px;
   }
 
-  section#earth img {
+  section#earth div div > img {
     width:350px;
     height:464.42px;
     top:calc(50% - 232.21px);
+  }
+
+  section#resources {
+    width:100%;
+    height:calc(100vh + 40px);
+  }
+
+  section#resources div {
+    height:85vh;
+    width:33.33%;
+    float:left;
+  }
+
+
+
+  section#technologies div#solarPanel p {
+    top:40%;
+    width:60%;
+    max-width:500px;
+  }
+
+  section#technologies div#solarPanel img {
+    width:350px;
+    height:318.55;
+    top:calc(50% - 159.275px);
+    left:0px;
+  }
+
+  section#technologies div#windTurbine p {
+    top:40%;
+    width:60%;
+    max-width:500px;
+  }
+
+  section#technologies div#windTurbine img {
+    width:350px;
+    height:560px;
+    top:calc(50% - 280px);
   }
 
 }
