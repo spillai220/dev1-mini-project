@@ -33,3 +33,8 @@ body {
 	width: 100px;
 	text-align: center;
 }
+
+li {
+	border-radius: 5px;
+	padding: 25px;
+}
