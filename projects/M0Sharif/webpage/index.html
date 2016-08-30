@@ -8,19 +8,26 @@
 </head>
 <body>
 	<header>
-		<div>
+		<div id="navig">
 			<a id="home" href="index.html">Mo Sharif</a>
-			<ul>
+
+			<div id="hamburger">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+
+			<!-- <ul>
 				<li><a href="projects.html">Projects</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="contact.html">Contact</a></li>
-			</ul>
+			</ul> -->
 		</div>
 	</header>
 
 	<main>
-		<div>
+		<div id="main">
 			<section class="profile">
 				<img src="profilePic.jpg">
 
@@ -51,27 +58,44 @@
 					<a href="#"><img src="car.jpg" width="440" height="420"><p>Project4</p></a>		
 				</div>
 				
-				<div>
+				<!-- <div>
 					<a href="#"><img src="phone.jpg" width="440" height="420"><p>Project5</p></a>		
-				</div>
+				</div> -->
 			</section>
+
+			<section class="contactme">
+				<form method="POST" action="http://lacedeamon.spartaglobal.com/contactform" align="center">
+				<div id="contact">
+					<input type="text" name="name" id="name" value placeholder="Name"><br>
+
+					<input type="email" name="email" id="email" value placeholder="Email"><br>
+
+					    <!-- <label for="addressee"></label>  
+					    <input type="text" name="addressee" id="addressee">  -->
+   
+					<textarea name="message" id="message" value placeholder="Message"></textarea><br>
+					<input type="submit" value="Submit" id="submit"/>
+				</div>
+				</form>
+			</section>
+
 		</div>
 	</main>
 
 	<footer>
 		<div class="links">
 		 	<ul>
-                <li><i class="fa fa-envelope"></i><a href="mailto: mo.omar.sharif@email.com"></a></li>
+                <li><a href="mailto: mo.omar.sharif@email.com"><i class="fa fa-envelope"></i></a></li>
 
                 <!-- s -->
 
                 <!-- <li><i class="fa fa-globe"></i><a href="" target="_blank">portfoliosite.com</a></li> -->
 
-                <li><i class="fa fa-linkedin"></i><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
-                <li><i class="fa fa-github"></i><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
 
-                <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/M0Sharif" target="_blank"></a></li>
+                <li><a href="https://twitter.com/M0Sharif" target="_blank"><i class="fa fa-twitter"></i></a></li>
             </ul>
 		</div>
 	</footer>
