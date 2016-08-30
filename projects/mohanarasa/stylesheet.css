@@ -28,4 +28,5 @@ float: center;
 header .img {
 margin: 0 auto;
   width: 80em;
+  float: center;
 }
