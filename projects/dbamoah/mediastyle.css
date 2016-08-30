@@ -34,6 +34,10 @@ nav ul {
 	text-align: center;
 }
 
+#featured {
+	padding-top: 150px;
+}
+
 li {
 	border-radius: 5px;
 	padding: 25px;
