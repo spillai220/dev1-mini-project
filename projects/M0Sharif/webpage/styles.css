@@ -1,7 +1,136 @@
 body {
+	font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /*font-family: Verdana, sans-serif;*/
+   	/*font-family: 'Roboto', sans-serif;*/
 	background-color: #ffffff;
+	background: yellow;
     color: #555;
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    line-height: 1.428571429;
+    margin: 0;
+    display: block;
+}
+
+header {
+	background: green;
+	padding-bottom: 70px;
+    padding-top: 70px;
+	background-color: #1abc9c;
+    border-color: #16a085;
+    display: block;
+    text-transform: uppercase;
+}
+
+header div {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: 135px;
+	margin-right: 135px;
+	overflow: hidden;
+
+}
+
+header div #home{
+	font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    float: left;
+    padding: 15px 15px;
+    margin-left: -15px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+header ul {
+	float: right!important;
+	margin-right: -15px;
+}
+
+header li {
+	list-style: none;
+	float: left;
+	padding: 15px 15px;
+	display: block;
+	position: relative;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+main {
+	background: orange;
+	overflow: hidden;
+}
+
+main div {
+	background-color: #f2f2f2;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+main div section {
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+main div section img {
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+main div section h1 {
+	font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+main div section p{
+	font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.projects{
+
+}
+
+.projects div{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.projects img {
+	 width: 340px;
+	 height: 320px;
+}
+
+@media (min-width: 768px){
+.profile {
+    width: 750px;
+}
+
+@media (min-width: 1200px){
+header div {
+    width: 1170px;
+}
+
+@media (min-width: 992px){
+header div {
+    width: 970px;
 }
