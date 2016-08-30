@@ -316,6 +316,11 @@ footer form input[type="submit"]:hover {
 
 
 @media screen and (min-width:960px) {
+
+  header > img {
+    margin-top:-15%;
+  }
+
   main {
     max-width:none;
   }
@@ -358,8 +363,6 @@ footer form input[type="submit"]:hover {
     width:33.33%;
     float:left;
   }
-
-
 
   section#technologies div#solarPanel p {
     top:40%;
