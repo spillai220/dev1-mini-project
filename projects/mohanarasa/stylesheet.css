@@ -25,8 +25,10 @@ float: center;
 	width: 50px;
 	height:50px;
 }
-header .img {
+head .img {
+	align-items: center;
 margin: 0 auto;
-  width: 80em;
+  width: 80%;
   float: center;
+  z-index: 9999;
 }
