@@ -111,13 +111,16 @@ main div section p{
 .projects div{
 	display: block;
 	float: left;
-	margin-right: 20px;
-	margin-left: 20px;
+	/*margin-right: 20px;
+	margin-left: 20px;*/
+	/*width: 33.33%;*/
+    margin: 0 auto; 
 }
 
 .projects img {
 	 width: 340px;
 	 height: 320px;
+	 vertical-align: middle;
 }
 
 @media (min-width: 768px){
@@ -133,4 +136,9 @@ header div {
 @media (min-width: 992px){
 header div {
     width: 970px;
+}
+
+@media (min-width: 1200px){
+.projects div {
+    width: 33.33333333333333%;
 }
