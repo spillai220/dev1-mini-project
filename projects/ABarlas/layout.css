@@ -1,16 +1,38 @@
-
-
-#Contact  {
-	margin-left: 1000px;
+.AI1 {
+  text-align: center;
 }
 
-.city {
+.AI1 {
+   float: none;
+   margin: 10px;
+   padding: 20px;
+   max-width: 700px;
+   height: 505px;
+   border: 3px solid black;
+   text-align: :right;
+
+}
+
+
+.SAI {
+  height: 100%;
+  width: 100%;
+}
+
+
+.AI {
    float: left;
    margin: 10px;
    padding: 20px;
-   max-width: 300px;
-   height: 300px;
+   max-width: 970px;
+   height: 250px;
    border: 3px solid black;
+  
+}
+
+div {
+  outline-color:purple;
+  outline-style: :solid;
 }
 
 body {margin:0;}
@@ -27,7 +49,7 @@ ul.topnav li {float: left;}
 ul.topnav li a {
   display: inline-block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
   transition: 0.3s;
@@ -38,7 +60,7 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:770px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -46,7 +68,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:770px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -63,15 +85,50 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-<a href="#unique-identifier">Click me!</a>
 
-footer {
-position: fixed;
-bottom: 0px;
-}
+
+
 
 
 .img-circle {
     border-radius: 100%;
 }
+
+img {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

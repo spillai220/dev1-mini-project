@@ -1,0 +1,40 @@
+body {
+	background-color: #2E7D32;
+}
+
+#nav1 {
+	background-color: #FFFFFF;
+	display: inline-block;
+	border: solid black 1px;
+	width: 100px;
+	text-align: center;
+}
+
+#nav2 {
+	background-color: #43A047;
+	display: inline-block;
+	border: solid black 1px;
+	width: 100px;
+	text-align: center;
+}
+
+#nav3 {
+	background-color: #FFFFFF;
+	display: inline-block;
+	border: solid black 1px;
+	width: 100px;
+	text-align: center;
+}
+
+#nav4 {
+	background-color: #43A047;
+	display: inline-block;
+	border: solid black 1px;
+	width: 100px;
+	text-align: center;
+}
+
+li {
+	border-radius: 5px;
+	padding: 25px;
+}
