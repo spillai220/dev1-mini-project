@@ -7,22 +7,24 @@
 	<title>Mo Sharif</title>
 </head>
 <body>
-	<header>
+	<header id="home">
+		<h1>Mo Sharif</h1>
 		<div id="navig">
-			<a id="home" href="index.html">Mo Sharif</a>
+			<!-- <a id="home" href="index.html">Mo Sharif</a> -->
 
-			<div id="hamburger">
+			<!-- <div id="hamburger">
 				<div></div>
 				<div></div>
 				<div></div>
-			</div>
+			</div> -->
 
-			<!-- <ul>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul> -->
+			<ul>
+				<li><a href="#home">Home</a><!-- <a href="index.html">Home</a> --></li>
+				<li><a href="#portfolio">Projects</a><!-- <a href="projects.html">Projects</a> --></li>
+				<li><a href="#main">About</a><!-- <a href="about.html">About</a> --></li>
+				<!-- <li><a href="blog.html">Blog</a></li> -->
+				<li><a href="#sayHello">Contact</a><!-- <a href="contact.html">Contact</a> --></li>
+			</ul>
 		</div>
 	</header>
 
@@ -34,14 +36,14 @@
 				<h1>Hi, I am Mohamed</h1>
 
 				<p>
-					Hey, I am Mohamed. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+					Hey, I am Mohamed, I am currenty training to be a JavScript web developer. outside of this I study programming languages and read articles on Medium. I also surf on reddit to read all sorts of interesting things. I also like to ride my bike, I would like to cycle from London to Manchester one day.
 				</p>
 				<p>
-					blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+					
 				</p>
 			</section>
 
-			<section class="projects">
+			<section class="projects" id="portfolio">
 				<div>
 					<a href="#"><img src="pink.jpg"><p>Project1</p></a>
 				</div>	
@@ -63,7 +65,7 @@
 				</div> -->
 			</section>
 
-			<section class="contactme">
+			<section class="contactme" id="sayHello">
 				<form method="POST" action="http://lacedeamon.spartaglobal.com/contactform" align="center">
 				<div id="contact">
 					<input type="text" name="name" id="name" value placeholder="Name"><br>
@@ -72,8 +74,11 @@
 
 					    <!-- <label for="addressee"></label>  
 					    <input type="text" name="addressee" id="addressee">  -->
-   
+   					
+   					<input type="hidden" name="addressee" id="addressee" value="someone@gmail.com"/>
+
 					<textarea name="message" id="message" value placeholder="Message"></textarea><br>
+
 					<input type="submit" value="Submit" id="submit"/>
 				</div>
 				</form>
@@ -93,7 +98,7 @@
 
                 <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
-                <li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://github.com/M0Sharif" target="_blank"><i class="fa fa-github"></i></a></li>
 
                 <li><a href="https://twitter.com/M0Sharif" target="_blank"><i class="fa fa-twitter"></i></a></li>
             </ul>
