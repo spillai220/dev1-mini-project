@@ -14,8 +14,8 @@
 }
 
 .SAI {
-  height: 100%;
-  width: 100%;
+   height: 100%;
+   width: 100%;
 }
 
 .AI {
@@ -73,7 +73,7 @@ ul.topnav li.icon {display: none;}
     right: 0;
     top: 0;
   }
-  
+
   ul.topnav.responsive li {
     float: none;
     display: inline;
