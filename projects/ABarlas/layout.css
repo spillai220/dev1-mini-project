@@ -73,11 +73,12 @@ ul.topnav li.icon {display: none;}
     right: 0;
     top: 0;
   }
+  
   ul.topnav.responsive li {
     float: none;
     display: inline;
   }
-  
+
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
